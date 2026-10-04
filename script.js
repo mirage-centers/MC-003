@@ -1,8 +1,8 @@
 // Chemins vers tes vidéos et audios
 const VIDEO_PATHS = [
-  "assets/video/gradient01.mp4",
-  "assets/video/gradient03.mp4",
-  "assets/video/gradient08.mp4"
+  "assets/video/gradient09.mp4",
+  "assets/video/gradient10.mp4",
+  "assets/video/gradient11.mp4"
 ];
 
 const AUDIO_PATHS = [
