@@ -6,10 +6,12 @@ const VIDEO_PATHS = [
 ];
 
 const AUDIO_PATHS = [
-  "assets/audio/gradientadata01.m4a",
-  "assets/audio/gradientadata02.m4a",
-  "assets/audio/gradientadata04.m4a",
-  "assets/audio/gradientadata05.m4a",
+  "assets/audio/gradientadata10.m4a",
+  "assets/audio/gradientadata11.m4a",
+  "assets/audio/gradientadata12.m4a",
+  "assets/audio/gradientadata13.m4a",
+  "assets/audio/gradientadata14.m4a",
+  "assets/audio/gradientadata15.m4a",
 ];
 
 // Clés DOM
