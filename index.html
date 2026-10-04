@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mirage Centers — MC-001 (Automatisme)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mirage Centers is a low-tech generative audiovisual record label by Automatisme. One configuration per day.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+
+  <!-- Vidéo / gradient plein écran -->
+  <section id="visual-layer" aria-label="Daily gradient video">
+    <video id="gradient-video" playsinline muted loop preload="metadata" oncontextmenu="return false"></video>
+    <!-- Fallback CSS si la vidéo ne se charge pas -->
+    <div id="gradient-fallback"></div>
+  </section>
+
+  <!-- Barre de contrôle minimaliste -->
+  <header id="top-bar">
+    <button id="info-toggle" type="button" aria-expanded="false" aria-controls="statement">Info</button>
+    <button id="play-button" type="button">Play</button>
+  </header>
+
+  <!-- Texte online (cartel), repliable -->
+  <section id="statement" aria-label="Artwork statement">
+    <h1>Mirage Centers</h1>
+    <p>Artist: Automatisme</p>
+    <p>Album: Mirage Centers 1</p>
+    <p>Cat #: MC-001</p>
+    <p>Mirage Centers is a generative audiovisual record label founded by William Jourdain, the Canadian artist working under the moniker of Automatisme (Mille Plateaux, Constellation). Each release lives as its own low-tech, frugal, and generative web page: one audiovisual configuration is selected daily from a limited set, building gradients pieces, and making available the blueprint of a sustainable listening environment.</p>
+    <p>The file compression methods used reduce file size by around 90%, minimizing the energy required to run each release ecosystem. You also decide what loads. Pressing play is the activation, nothing before.</p>
+    <p>Shadow architecture: no streams until you choose, unlike most of the web, which fetches everything by default without asking.</p>
+    <p>EcoIndex score: 95/100 - Grade A. <a href="https://bff.ecoindex.fr/redirect/?url=https://automatisme-wj.github.io/mirage-centers/" target="_blank" rel="noopener noreferrer">View detailed report</a>.</p>
+    <p>One configuration per day. No feed. No catalogue. Limited resources. Deliberate playback. Every Mirage Centers release enters sleep mode at night. Why should the internet be online 24/7?</p>
+    <p>Exclusive and only streaming platform is this current page.</p>
+    <p>Print on demand limited pressing available <a href="https://www.tunegoody.com/artist/automatisme/album/mc-001" target="_blank" rel="noopener noreferrer">here</a>.</p>
+    <p><a href="https://linktr.ee/mirage.centers">https://linktr.ee/mirage.centers</a></p>
+    <p>© 2026 Mirage Centers. All rights reserved.</p>
+  </section>
+
+  <!-- Texte Sleep mode, affiché la nuit -->
+  <section id="sleep-message" aria-label="Sleep mode message">
+    <h2>Sleep mode.</h2>
+    <p>Artist: Automatisme</p>
+    <p>Album: Mirage Centers 1</p>
+    <p>Cat #: MC-001</p>
+    <p>Mirage Centers is currently offline.</p>
+    <p>This is a generative audiovisual record label founded by William Jourdain, the Canadian artist working under the moniker Automatisme (Mille Plateaux, Constellation).</p>
+    <p>This work is not available at all times. During sleep hours, audio and video are not loaded. The site will return later with the day's configuration.</p>
+    <p>A small pause for lighter infrastructure.</p>
+    <p>Come back later.<br>xoxo</p>
+    <p><a href="https://linktr.ee/mirage.centers">https://linktr.ee/mirage.centers</a></p>
+    <p>© 2026 William Jourdain (Automatisme). All rights reserved.</p>
+  </section>
+
+  <!-- Audio en boucle, sans contrôle natif -->
+  <audio id="audio-pad" loop preload="metadata"></audio>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
